@@ -1,0 +1,352 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/IN-en-20230731-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-image: transparent;
+    background-size: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+    color: white;
+    background-color: black;
+}
+#nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 5px  10%;
+}
+   
+#nav #left img{
+    width:20%;
+    background-image: transparent
+}
+ #nav #select{
+    display: block;
+    border-radius: none;
+    height: 5px;
+    width: 5px;
+}
+#nav #right{
+    display:flex;
+    align-items: center;
+    gap: 3rem;
+    position: relative;
+}
+
+#nav #right #drop{
+    padding-left: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    font-size:1rem;
+    color: beige;
+    border-radius: 5px;
+}
+
+#nav #right #drop{
+    display: block;
+}
+#nav #right #abc{
+    background-color: red;
+    width: 4.5rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 15px;
+    gap: 5px;
+}
+#netflix{
+    text-align: center;
+    color: white;
+    margin-top: 8px;
+}
+#netflix h1{
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+
+#netflix button{
+    width: 13%;
+    background-color: red;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    color: gray;
+    justify-content: space-between;
+    
+}
+#netflix #email #input{
+    height: 2rem;
+    width: 7rem;
+    background-color: transparent;
+    color: white;
+    border:none;
+    border-color: black;
+}
+#netflix input{
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.693);
+    line-height: 8px;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    font-size: 1rem;
+    border-radius:5px;
+    border-color: gray;
+}
+#neflix input::placeholder{
+    color: white;
+}
+#netflix button{
+    background-color: red;
+    border: 5px;
+    font-size: 20px;
+    color: black;
+    border-radius:5px;
+}
+#netflix button:hover{
+    background-color: rgba(255, 166, 0, 0.867);
+}
+#right{
+    position: relative;
+}
+#right i{
+    color: white;
+    position: absolute;
+    padding-left: 3px;
+
+}
+#tv{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: white;
+    width:80%;
+    margin: auto;
+    margin-top: 30rem;
+
+}
+#tv div{
+    width:48%;
+
+}
+#tv #enjoy h1{
+    font-size:3rem;
+}
+#tv #enjoy p{
+    font-size: 1.5rem;
+}
+
+#bird{
+    position: relative;
+
+}
+#bird img{
+    width:100%;
+    position:relative;
+    z-index: 2;
+    
+}
+#bird video{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width:75%;
+    z-index: 1;
+}
+#tv2{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: white;
+    width:80%;
+    margin: auto;
+    margin-top: 10rem;
+
+}
+#tv2 div{
+    width:48%;
+
+}
+#tv2 #funny h1{
+    font-size:3rem;
+}
+#tv2 #funny p{
+    font-size: 1.5rem;
+}
+
+#phone{
+    position: relative;
+
+}
+#phone img{
+    width:100%;
+    position:relative;
+    z-index: 2;
+    
+}
+#phone video{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width:75%;
+    z-index: 1;
+}
+#tv3{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: white;
+    width:100%;
+    margin: auto;
+    margin-top: 10rem;
+}
+#tv3 div{
+    width:48%;
+
+}
+#tv3 #joke h1{
+    font-size:3rem;
+}
+#tv3 #joke p{
+    font-size: 1.5rem;
+
+}
+
+#game{
+    position: relative;
+
+}
+#game img{
+    width:100%;
+    position:relative;
+    z-index: 2; 
+}
+#tv4{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: white;
+    width:100%;
+    margin: auto;
+    margin-top: 10rem;
+}
+#tv4 div{
+    width:48%;
+
+}
+#tv4 #table h1{
+    font-size:3rem;
+}
+#tv3 #table p{
+    font-size: 1.5rem;
+
+}
+
+#chair{
+    position: relative;
+
+}
+#chair img{
+    width:100%;
+    position:relative;
+    z-index: 2; 
+}
+#strange{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #5e5e5e  ;
+    border-radius: 5px;
+    width: 60%;
+    margin: auto;
+    bottom: 2%;
+    left: 18%;
+    background-color: black;
+}
+#strange #neha{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+#strange #neha img{
+    width: 3.5rem;
+}
+#strange #neha h4{
+    display: flex;
+    margin-top: 5px;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+#strange #neha h5{
+    margin-top: 10px;
+    font-size: 0.6rem;
+    margin-bottom: 0;
+    color:#006eeb ;
+}
+#strange #gif img{
+    width: 2rem;
+    margin-left: 3rem;
+    margin-top: 5px;
+}
+@media(max-width:600px){
+    #bar{
+        display: inline-block;
+        color: white;
+        background-color: gray;
+        padding: 5px 10px;
+        border-radius: 5px;
+        position: sticky;
+        top: 1%;
+        left: 5px;
+    }
+    #nav{
+        display: none;
+    }
+    body{
+        background-size: 190%;
+        background-position: center;
+    }
+    #alpha{
+        margin-top: 0px;
+        width: 80;
+        margin: auto;
+    }
+    #alpha h1{
+        font-size: 2rem;
+    }
+    #alpha p{
+        font-size: 1.15rem;
+    }
+    #alpha button{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #alpha learn{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    #intro{
+        width: 100%;
+        margin-top: 3rem;
+    }
+    #intro h1{
+        font-size: 1.6rem;
+    }
+    #intro p{
+        width: 90%;
+        margin: auto;
+    }
+    br{
+        display: none;
+    }
+    #last{
+       width: 100%;
+       margin-top: 3rem;
+
+    }
+    #last h1{
+        font-size: 1.6rem;
+    }
+}
+
+
+
